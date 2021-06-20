@@ -9,9 +9,9 @@
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
     scrollbar-width: none; //for excute firefox browser
-    &::-webkit-scrollbar{
-        display: none;
-    }
+    // &::-webkit-scrollbar{
+    //     display: none;
+    // }
 
     > *{
       width: 100vw;
