@@ -1,22 +1,25 @@
 import './Intro.scss';
 import { init } from 'ityped';
-import { useEffect ,useRef } from 'react';
+import { useEffect, useRef } from 'react';
 
 function Intro(props) {
 
     const textref = useRef();
-   
-    useEffect(()=>{
-       init(textref.current,{
-           showCursor:false,
-           backDelay:1700,
-           backSpeed:60,
-           strings:['Developer','Desginer','FullStack developer']
-       })
-    },[])
+
+    useEffect(() => {
+        init(textref.current, {
+            showCursor: false,
+            backDelay: 1400,
+            backSpeed: 60,
+            strings: ['Developer', 'develop with React', 'develop with node-js',
+                'develop with laravel',
+                'develop with jsp-servlet'
+            ]
+        })
+    }, [])
 
     return (
-        
+
         <div className="intro" id="intro">
             <div className="left">
 
@@ -28,14 +31,20 @@ function Intro(props) {
             </div>
             <div className="right">
 
-               <div className="wrapper">
-                   <h2>Hi There, I'm</h2>
-                   <h1>Zafrul Hasan Nasim</h1>
-                   <h3>Web <span ref={textref} ></span></h3>
-               </div>
-               <a href="#portfolio">
-                   <img src="assets/down.png" alt="" />
-               </a>
+                <div className="wrapper">
+                    <h2>Hi There, I'm</h2>
+                    <h1>Zafrul Hasan Nasim</h1>
+                    <h3>Web <span ref={textref} ></span></h3><br /><br /><br className="break" />
+                    <h4>Educational Qulaification : </h4>
+                        <span className="edu">
+                            B.sc. Engg. in ICT at Mawlana Bhashani Science and Tecnology University.
+                        </span>
+                    
+                </div>
+
+                <a href="#portfolio">
+                    <img src="assets/down.png" alt="" />
+                </a>
 
             </div>
         </div>

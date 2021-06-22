@@ -16,23 +16,23 @@ function Portfolio(props) {
     const list = [
         {
             id: "featured",
-            title: "Featured",
+            title: "Skills",
         },
         {
             id: "web",
-            title: "Web App",
+            title: "React-Js App",
         },
         {
             id: "mobile",
-            title: "Mobile App",
+            title: "Laravel App",
         },
         {
             id: "design",
-            title: "Design",
+            title: "Jsp-Servlet",
         },
         {
             id: "content",
-            title: "Content",
+            title: "JavaScript",
         },
     ];
 

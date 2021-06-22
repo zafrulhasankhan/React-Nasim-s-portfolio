@@ -30,6 +30,9 @@
         position: absolute;
         left: 0;
         transition: all 1.5s ease-out;
+        overflow: hidden;
+        
+       
 
         @include mobile{
           height: 100vh;
@@ -42,20 +45,29 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            //  transform: rotate(-1deg);
+            overflow: hidden;
 
+            //position: relative;
+            @include mobile{
+              transform: none;
+            }
+            
             .item{
                 width: 700px;
-                height: 100%;
+                height: 105%;
                 background: white;
-                border-radius: 20px;
+                border-radius: 23px 27px 25px 28px ;
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                position: relative;
+                overflow: hidden;
 
                 @include mobile{
                   width: 80%;
-                  height: 150px;
-                  margin: 15px 0;
+                  height: 130px;
+                  margin: 7px 0;
                 }
 
                 .left{
@@ -132,7 +144,10 @@
           
                     img {
                       width: 400px;
-                      transform: rotate(-10deg);
+                      transform: rotate(-12deg);
+                      @include mobile{
+                        transform: rotate(-8deg);
+                      }
                     }
                 }
             }

@@ -1,38 +1,42 @@
 import './Testimonial.scss';
+import {Facebook,Github,Instagram,Linkedin} from 'react-bootstrap-icons';
 
 function Testimonial() {
     const data = [
         {
           id: 1,
-          name: "Tom Durden",
+          name: "Snighdho Majumdar",
           title: "Senior Developer",
           img:
-            "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-          icon: "assets/twitter.png",
+            "avatar.png",
+          icon: <Facebook style={{fontSize:'25px',color:'#3B5998'}} />,
           desc:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
-        },
+          link:'',
+          },
         {
           id: 2,
-          name: "Alex Kalinski",
-          title: "Co-Founder of DELKA",
+          name: "MD. Shamim Hossain",
+          title: "Senior Developer",
           img:
-            "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-          icon: "assets/youtube.png",
+            "avatar.png",
+          icon: <Facebook style={{fontSize:'25px',color:'#3B5998'}}/>,
           desc:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
           featured: true,
+          link:''
         },
         {
           id: 3,
-          name: "Martin Harold",
-          title: "CEO of ALBI",
+          name: "Tanveer Ahmed Nirjhor",
+          title: "Senior Developer",
           img:
-            "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-          icon: "assets/linkedin.png",
+            "avatar.png",
+          icon: <Facebook style={{fontSize:'25px',color:'#3B5998'}}/>,
           desc:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
-        },
+          link:''
+          },
       ];
       return (
         <div className="testimonials" id="testimonials">
@@ -47,7 +51,8 @@ function Testimonial() {
                     src={d.img}
                     alt=""
                   />
-                  <img className="right" src={d.icon} alt="" />
+                  {/* <img className="right" src={d.icon} alt="" /> */}
+                  <span  className="right"><a href={d.link}>{d.icon}</a></span>
                 </div>
                 <div className="center">
                   {d.desc}
