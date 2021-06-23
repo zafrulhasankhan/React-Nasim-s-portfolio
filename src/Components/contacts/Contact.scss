@@ -204,7 +204,7 @@ $colors: (
       justify-content: space-around;
 
       @include mobile{
-        position: relative;
+       // position: relative;
       }
 
       input {
@@ -217,7 +217,7 @@ $colors: (
           height: 30px;
           border: 1px solid black;
           margin: 10px;
-          position: relative;
+          //position: relative;
         }
       }
 
@@ -231,7 +231,7 @@ $colors: (
           height: 100px;
           border: 1px solid black;
           margin: 10px;
-          position: relative;
+          //position: relative;
         }
       }
 
@@ -244,6 +244,10 @@ $colors: (
         border-radius: 10px;
         font-weight: 500;
         cursor: pointer;
+        @include mobile{
+          width: 75px;
+          height: 43px;
+        }
 
         &:focus {
           outline: none;
