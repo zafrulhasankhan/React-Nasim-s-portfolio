@@ -41,6 +41,7 @@ function Contact(props) {
                     <a href="https://www.linkedin.com/in/zafrul-hasan-nasim-8501b120b" target="_blank" className="social-button google"><Linkedin className="fa" /></a>
                     <a href="https://www.instagram.com/zafrul_hasan_nasim/" target="_blank" className="social-button instagram"><Instagram className="fa"/></a>
                 </div>
+                <h3>Contact:<b> nasimkhan18003@gmail.com;</b> Cell no: <b>+88 01700591547</b></h3><br />
             </div>
         </div>
     );

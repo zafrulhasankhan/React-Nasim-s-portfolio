@@ -6,35 +6,35 @@ function Testimonial() {
         {
           id: 1,
           name: "Snighdho Majumdar",
-          title: "Senior Developer",
+          title: "Senior Developer, Fiverr",
           img:
             "avatar.png",
           icon: <Facebook style={{fontSize:'25px',color:'#3B5998'}} />,
           desc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+            "An exceptional developer, demonstrating profound skills and a remarkable ability to engineer solutions with precision and creativity.",
           link:'',
           },
         {
           id: 2,
           name: "MD. Shamim Hossain",
-          title: "Senior Developer",
+          title: "Software Engineer,DSI",
           img:
             "avatar.png",
           icon: <Facebook style={{fontSize:'25px',color:'#3B5998'}}/>,
           desc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
+            "An adept developer, consistently delivering high-quality solutions with a strong engineering acumen ",
           featured: true,
           link:''
         },
         {
           id: 3,
           name: "Tanveer Ahmed Nirjhor",
-          title: "Senior Developer",
+          title: "Software Engineer",
           img:
             "avatar.png",
           icon: <Facebook style={{fontSize:'25px',color:'#3B5998'}}/>,
           desc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+            "An exceptional developer, demonstrating proficiency and dedication in delivering high-quality solutions. Consistently excels in engineering challenges with a keen eye for innovation",
           link:''
           },
       ];
