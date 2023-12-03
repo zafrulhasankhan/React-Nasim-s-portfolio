@@ -38,6 +38,27 @@
            font-weight: 700;
         }
     }
+    /* Add these styles to your existing SCSS */
+
+  
+  .contact-info {
+    
+    display: none;
+    @include mobile{
+        display: flex;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .icon {
+      font-size: 15px;
+      margin-right: 10px;
+    }
+  
+    span {
+      font-size: 11px;
+      font-weight: 500;
+    }
+  }
 
 
 }
