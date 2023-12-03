@@ -14,13 +14,13 @@
       overflow: hidden;
       
       .imgContainer{
-        width: 700px;
-        height: 700px;
-        border-radius: 90%;
+        width: 600px;
+        height: 660px;
+        border-radius: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
-        background: black;
+        background: rgb(43,43,43);
         float: right;
 
         @include mobile{

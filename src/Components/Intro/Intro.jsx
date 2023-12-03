@@ -11,9 +11,9 @@ function Intro(props) {
             showCursor: false,
             backDelay: 1400,
             backSpeed: 60,
-            strings: ['Developer', 'develop with React', 'develop with node-js',
-                'develop with laravel',
-                'develop with jsp-servlet'
+            strings: ['Developer', 'Development With React JS', 'Development With Node JS',
+                'Development With Laravel',
+                'Development With Jsp-Servlet'
             ]
         })
     }, [])
@@ -25,7 +25,7 @@ function Intro(props) {
 
                 <div className="imgContainer">
 
-                    <img src="me.jpg" alt="hello" />
+                    <img src="me3.png" alt="hello" />
                 </div>
 
             </div>

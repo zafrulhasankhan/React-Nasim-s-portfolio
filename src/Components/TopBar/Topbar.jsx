@@ -9,11 +9,11 @@ function Topbar({menuOpen,setMenuOpen}) {
                     <a href="#intro" className="logo">  Nastuz</a>
                     <div className="itemContainer">
                         <PhoneInTalk className="icon" />
-                        <span>+88 01612457547</span>
+                        <span>+88 01700591547</span>
                     </div>
                     <div className="itemContainer">
                         <Mail className="icon" />
-                        <span>nasimzafrulhasan@gmail.com</span>
+                        <span>nasimkhan18003@gmail.com</span>
                     </div>
                 </div>
 

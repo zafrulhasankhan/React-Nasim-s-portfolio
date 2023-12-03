@@ -91,6 +91,12 @@ export const featuredPortfolio = [
       img:"app/react/weather-app (2).png"
       //img: "https://cdn.dribbble.com/users/6384483/screenshots/15468426/media/ce9479fa1f8dba3a4a49840d76e55e31.png?compress=1&resize=1200x900",
     },
+    {
+      id: 6,
+      title: "Weather News App",
+      img:"app/react/weather-app (2).png"
+      //img: "https://cdn.dribbble.com/users/6384483/screenshots/15468426/media/ce9479fa1f8dba3a4a49840d76e55e31.png?compress=1&resize=1200x900",
+    },
   ];
   
   export const mobilePortfolio = [
